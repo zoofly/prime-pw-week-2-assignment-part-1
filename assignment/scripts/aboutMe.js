@@ -49,7 +49,12 @@ if (luckyNumber==2 && adventurous==true){
 // if the value of `pets` is greater than the value of `allowedPets`.
 if (pets==2 && allowedPets==2){
   console.log("I have enough pets.");
+} else if(pets>allowedPets){
+  console.log("Oh no, I have too many pets!");
+} else{
+  console.log("I can have more pets!");
 }
+
 // STRETCH GOALS:
 
 // 16 - Make a variable called `mostPets` and a conditional that
